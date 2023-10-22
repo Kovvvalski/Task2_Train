@@ -1,1 +1,5 @@
 00:19:35.648 [main] ERROR main.Main - Cannot parse the integer For input string: "u"
+15:50:26.668 [main] ERROR main.Main - Cannot parse the integer For input string: "u"
+15:55:25.369 [main] INFO  main.Main - Application started
+15:55:25.380 [main] ERROR main.Main - Cannot parse the integer For input string: "u"
+15:57:59.202 [main] INFO  main.Main - Application started
