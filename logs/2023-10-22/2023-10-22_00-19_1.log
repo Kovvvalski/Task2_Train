@@ -1,0 +1,11 @@
+23:51:47.994 [main] ERROR main.Main - Error reading from file: Destination '[Ljava.lang.String;@69e153c5' is not defined
+23:51:47.998 [main] ERROR main.Main - Error reading from file: Destination '[Ljava.lang.String;@33065d67' is not defined
+23:54:10.929 [main] ERROR main.Main - Error reading from file: Destination '' is not defined
+23:54:10.933 [main] ERROR main.Main - Error reading from file: Destination '' is not defined
+23:56:35.362 [main] ERROR main.Main - Error reading from file: Destination  is not defined
+23:56:35.365 [main] ERROR main.Main - Error reading from file: Destination  is not defined
+23:57:35.579 [main] ERROR main.Main - Error reading from file: Destination mimin is not defined
+23:58:21.221 [main] ERROR main.Main - Cannot parse the symbol
+23:58:53.032 [main] ERROR main.Main - Cannot parse the symbol For input string: "u"
+23:59:31.737 [main] ERROR main.Main - Cannot parse the integer For input string: "u"
+00:18:44.097 [main] FATAL main.Main - Error opening the file C:/Users/Acer/Desktop/ITA/projects/Train/input/inpu.txt
