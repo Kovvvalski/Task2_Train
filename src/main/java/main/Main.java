@@ -32,6 +32,7 @@ public class Main {
       trains = trainCreator.createTrainSet((reader.readFromFile("C:/Users/Acer/Desktop/ITA/projects/Train/input/input.txt", StandardCharsets.UTF_8)));
     } catch (ReadFromFileException e) {
       System.out.println(e.getMessage());
+      log.log(Level.INFO,"Work finished");
       return;
     }
     System.out.println("Input data");
@@ -42,6 +43,6 @@ public class Main {
     printer.printTrainSet(service.findByDestinationAndDepartureHour(trains, Destination.MINSK, current));
     System.out.println("Trains following to HOMEL with places presence");
     printer.printTrainSet(service.findByDestinationAndAllPlacesPresence(trains, Destination.HOMEL));
-
+    log.log(Level.INFO,"Work finished");
   }
 }
