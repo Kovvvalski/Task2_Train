@@ -1,13 +1,0 @@
-17:16:46.288 [main] INFO  main.Main - Application started
-17:16:46.346 [main] INFO  main.Main - Work finished
-17:17:08.554 [main] INFO  main.Main - Application started
-17:17:08.565 [main] FATAL main.Main - Error opening the file C:/Users/cer/Desktop/ITA/projects/Train/input/input.txt
-17:17:08.566 [main] INFO  main.Main - Work finished
-17:19:34.875 [main] INFO  main.Main - Application started
-17:19:34.916 [main] ERROR main.Main - Cannot parse the destination: destination KJh is not defined
-17:19:34.918 [main] ERROR main.Main - Cannot parse the integer For input string: "s"
-17:19:34.959 [main] INFO  main.Main - Work finished
-17:22:15.553 [main] INFO  main.Main - Application started
-17:22:15.729 [main] ERROR main.Main - Cannot parse the destination: destination KJh is not defined
-17:22:15.730 [main] ERROR main.Main - Cannot parse the integer For input string: "s"
-17:22:15.763 [main] INFO  main.Main - Work finished

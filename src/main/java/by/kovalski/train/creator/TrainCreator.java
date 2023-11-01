@@ -1,17 +1,22 @@
-package creator;
+package by.kovalski.train.creator;
 
-import entity.Destination;
-import entity.Train;
+import by.kovalski.train.entity.Destination;
+import by.kovalski.train.entity.Train;
+import by.kovalski.train.entity.Destination;
 import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-import static main.Main.log;
+
 
 public class TrainCreator {
-  public ArrayList<Train> createTrainSet(String fromFile) {
+  private static Logger log = LogManager.getLogger();
+  public List<Train> createTrainSet(String fromFile) {
     ArrayList<Train> out = new ArrayList<>();
     String[] rows = fromFile.split("\n");
     for (String row : rows) {
